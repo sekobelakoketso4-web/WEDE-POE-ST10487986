@@ -1,31 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 
 <head>
- 
-<title>Gallery</title>   
+
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Gallery</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
- 
-<h1>Gallery</h1> 
 
-<hr>
+     <h1>Koki's Lash Studio</h1>
 
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="services.html">Services</a>
-<a href="gallery.html">Gallery</a>
-<a href="contact.html">Contact</a> 
+     <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
 
-<hr>
+     </nav>
 
-<img src="lashes1.jpg" width="250">
-<img src="lashes2.jpg" width="250">
-<img src="lashes3.jpg" width="250">
-<img src="lashes4.jpg" width="250">
-<img src="lashes5.jpg" width="250">
+     <main>
+          <h2>Our Lash Gallery</h2>
 
+          <div class="gallery">
 
+               <img src="lashes1.jpg" srcset="lashes1-small.jpg 400w,
+                     lashes1-medium.jpg 800w" sizes="(max-width: 600px) 100vw,
+                    (max-width: 960px) 50vw,
+                    33vw" alt="Classic lash set">
 
+               <img src="lashes2.jpg" srcset="lashes2-small.jpg 400w,
+                     lashes2-medium.jpg 800w" sizes="(max-width: 600px) 100vw,
+                    (max-width: 960px) 50vw,
+                    33vw" alt="Hybrid lash set">
 
+               <img src="lashes3.jpg" srcset="lashes3-small.jpg 400w,
+                     lashes3-medium.jpg 800w" sizes="(max-width: 600px) 100vw,
+                    (max-width: 960px) 50vw,
+                    33vw" alt="Cat eye lash set">
+
+               <img src="lashes4.jpg" srcset="lashes4-small.jpg 400w,
+                     lashes4-medium.jpg 800w" sizes="(max-width: 600px) 100vw,
+                    (max-width: 960px) 50vw,
+                    33vw" alt="Volume lash set">
+
+               <img src="lashes5.jpg" srcset="lashes5-small.jpg 400w,
+                     lashes5-medium.jpg 800w" sizes="(max-width: 600px) 100vw,
+                    (max-width: 960px) 50vw,
+                    33vw" alt="Wispy lash set">
+
+          </div>
+     </main>
