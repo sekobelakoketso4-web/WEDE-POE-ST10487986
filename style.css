@@ -27,23 +27,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Navigation */
-nav {
-    text-align: center;
-    margin: 20px 0;
-}
 
-nav a {
-    color: #c2185b;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #880e4f;
-    text-decoration: underline;
-}
 
 /* Paragraphs */
 p {
