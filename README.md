@@ -108,7 +108,11 @@ Enquiry form message	Messages shorter than 10 characters are rejected.	To be com
 Enquiry appointment date	Past dates are rejected.	To be completed
 Responsive layout	Pages display correctly on desktop, tablet and mobile.	To be completed
 
-The contact and enquiry forms currently perform client-side validation. They do not send or store submitted information.
+The contact and enquiry forms currently perform client-side validation. They do not send or store submitted information. 
+
+Live website link : https://sekobelakoketso4-web.github.io/WEDE-POE-ST10487986/
+
+Repository link: 
 
 ## References
 
