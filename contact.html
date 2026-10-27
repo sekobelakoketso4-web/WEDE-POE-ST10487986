@@ -33,7 +33,7 @@
 
         <p>Have a question or want to book your lash appointment? Fill in the form below.</p>
 
-        <form>
+        <form id="contactForm">
 
             <label for="fullname">Full Name</label>
             <input type="text" id="fullname" name="fullname" required>
@@ -44,10 +44,16 @@
             <label for="phone">Phone Number</label>
             <input type="tel" id="phone" name="phone" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5"></textarea>
+           <label for="message">Message</label>
+           <textarea id="message" name="message" rows="5" required minlength="10"></textarea>
 
-            <input type="submit" value="Send">
+            <button type="submit">Send Message</button>
+            <p id="contactFormMessage" role="status"></p>
+
+
+
+
+            
 
         </form>
 
