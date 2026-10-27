@@ -1,4 +1,3 @@
-
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
@@ -16,6 +15,12 @@ if (contactForm) {
             return;
         }
 
+        if (phone.length < 10) {
+            status.textContent =
+                "Please enter a phone number with at least 10 characters.";
+            return;
+        }
+
         if (message.length < 10) {
             status.textContent =
                 "Please enter a message of at least 10 characters.";
@@ -26,3 +31,4 @@ if (contactForm) {
             "Your form passed validation. Your message has not been sent.";
     });
 }
+
