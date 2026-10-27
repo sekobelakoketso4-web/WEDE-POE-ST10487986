@@ -112,7 +112,6 @@ The contact and enquiry forms currently perform client-side validation. They do 
 
 Live website link : https://sekobelakoketso4-web.github.io/WEDE-POE-ST10487986/
 
-Repository link: 
 
 ## References
 
